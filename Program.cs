@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using _2025ArtofBeautyFestival.Forms;
 
 namespace _2025ArtofBeautyFestival
 {
@@ -16,7 +17,7 @@ namespace _2025ArtofBeautyFestival
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new MainForm());
         }
     }
 }
