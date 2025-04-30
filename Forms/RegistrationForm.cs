@@ -12,39 +12,13 @@ namespace _2025ArtofBeautyFestival.Forms
 {
     public partial class RegistrationForm : Form
     {
-        public 
-            RegistrationForm()
+        public RegistrationForm()
         {
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtPhoneNumber_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-    }
-
-    private decimal CalculateFee()
+        // Calculate the registration fee
+        private decimal CalculateFee()
         {
             decimal fee = 0;
             string role = cmbRole.SelectedItem?.ToString();
@@ -90,9 +64,31 @@ namespace _2025ArtofBeautyFestival.Forms
 
             return fee;
         }
+
+        // Update the fee label (not a popup message)
+        private void UpdateFeeLabel()
+        {
+            decimal finalFee = CalculateFee();
+            lblFeeAmount.Text = $"${finalFee:0.00}";
+        }
+
         private void cmbRole_SelectedIndexChanged(object sender, EventArgs e)
         {
-            // Show/hide GroupBoxes as before
+            // Hide all groupboxes first
+            grpVendor.Visible = false;
+            grpPerformer.Visible = false;
+            grpBeautyArtist.Visible = false;
+
+            // Show the groupbox that matches the role
+            string selectedRole = cmbRole.SelectedItem?.ToString();
+
+            if (selectedRole.StartsWith("Vendor"))
+                grpVendor.Visible = true;
+            else if (selectedRole.StartsWith("Performer"))
+                grpPerformer.Visible = true;
+            else if (selectedRole.StartsWith("Beauty Artist"))
+                grpBeautyArtist.Visible = true;
+
             UpdateFeeLabel();
         }
 
@@ -115,17 +111,5 @@ namespace _2025ArtofBeautyFestival.Forms
         {
             UpdateFeeLabel();
         }
-
-
-        decimal finalFee = CalculateFee();
-        MessageBox.Show($"Total fee to collect: ${finalFee}");
-
-
-
-
-
-
-
-
     }
 }

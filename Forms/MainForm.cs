@@ -45,5 +45,10 @@ namespace _2025ArtofBeautyFestival.Forms
             SettingsForm settingsForm = new SettingsForm();
             settingsForm.ShowDialog();
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

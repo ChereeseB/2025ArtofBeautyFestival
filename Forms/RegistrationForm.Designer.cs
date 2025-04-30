@@ -1,6 +1,8 @@
 ﻿namespace _2025ArtofBeautyFestival.Forms
 {
     partial class RegistrationForm
+
+
     {
         /// <summary>
         /// Required designer variable.
@@ -77,7 +79,7 @@
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "Registration form";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox1.TextChanged = new System.EventHandler(this.textBox1_TextChanged);
             // 
             // lblFirstName
             // 
@@ -124,7 +126,7 @@
             this.lblPhoneNumber.Size = new System.Drawing.Size(143, 25);
             this.lblPhoneNumber.TabIndex = 5;
             this.lblPhoneNumber.Text = "Phone Number";
-            this.lblPhoneNumber.Click += new System.EventHandler(this.label3_Click);
+            this.lblPhoneNumber.Click += new System.EventHandler(this.lblPhoneNumber_Click);
             // 
             // txtEmail
             // 
@@ -159,6 +161,7 @@
             // 
             this.cmbRole.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbRole.FormattingEnabled = true;
+            this.cmbRole.SelectedIndexChanged += new System.EventHandler(this.cmbRole_SelectedIndexChanged);
             this.cmbRole.Items.AddRange(new object[] {
             "Attendee",
             "Beauty Artist $100",
@@ -214,7 +217,7 @@
             this.grpVendor.TabIndex = 14;
             this.grpVendor.TabStop = false;
             this.grpVendor.Text = "Vendor Info";
-            this.grpVendor.Visible = false;
+            this.grpVendor.Visible = true;
             // 
             // lblBoothSize
             // 
@@ -293,7 +296,7 @@
             this.grpPerformer.TabIndex = 15;
             this.grpPerformer.TabStop = false;
             this.grpPerformer.Text = "Performer Info";
-            this.grpPerformer.Visible = false;
+            this.grpPerformer.Visible = true;
             // 
             // lblStageName
             // 
@@ -340,13 +343,13 @@
             this.grpBeautyArtist.TabIndex = 16;
             this.grpBeautyArtist.TabStop = false;
             this.grpBeautyArtist.Text = "Beauty Artist Info";
-            this.grpBeautyArtist.Visible = false;
+            this.grpBeautyArtist.Visible = true;
             // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(270, 94);
-            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Name = "chkElectricity";
             this.checkBox1.Size = new System.Drawing.Size(178, 29);
             this.checkBox1.TabIndex = 3;
             this.checkBox1.Text = "Needs Electricity";
@@ -402,7 +405,7 @@
             this.btnRegister.TabIndex = 18;
             this.btnRegister.Text = "Register";
             this.btnRegister.UseVisualStyleBackColor = true;
-            this.btnRegister.Click += new System.EventHandler(this.button1_Click);
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister.Click);
             // 
             // btnCancel
             // 
@@ -414,7 +417,7 @@
             this.btnCancel.TabIndex = 19;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.button2_Click);
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click;
             // 
             // lblFeeAmount
             // 
@@ -453,7 +456,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "RegistrationForm";
             this.Text = "RegistrationForm";
-            this.grpVendor.ResumeLayout(false);
+            this.grpVendor.ResumeLayout(true);
             this.grpVendor.PerformLayout();
             this.grpPerformer.ResumeLayout(false);
             this.grpPerformer.PerformLayout();
