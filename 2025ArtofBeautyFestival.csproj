@@ -67,9 +67,6 @@
     <Compile Include="Forms\RegistrationForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\RegistrationForm.Designer.cs">
-      <DependentUpon>RegistrationForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\ReportForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,13 +114,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DataFiles\" />
     <Folder Include="Data\" />
     <Folder Include="Models\" />
     <Folder Include="Reports\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AoBFest 2025logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DataFiles\participants.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

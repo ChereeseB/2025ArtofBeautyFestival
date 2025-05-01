@@ -43,7 +43,7 @@
             this.picLogo.Image = global::_2025ArtofBeautyFestival.Properties.Resources.AoBFest_2025logo;
             this.picLogo.Location = new System.Drawing.Point(297, 29);
             this.picLogo.Name = "picLogo";
-            this.picLogo.Size = new System.Drawing.Size(345, 202);
+            this.picLogo.Size = new System.Drawing.Size(451, 202);
             this.picLogo.TabIndex = 0;
             this.picLogo.TabStop = false;
             // 
