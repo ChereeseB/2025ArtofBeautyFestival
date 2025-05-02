@@ -1,0 +1,29 @@
+# Art of Beauty Festival Management System – IPO Chart
+
+  
+
+##  IPO (Input-Process-Output) Analysis Overview
+
+  ## Summary:
+
+This IPO chart outlines how participant data flows through the Art of Beauty Festival registration system. It supports dynamic input handling based on participant roles, rfee calculation, and XML storage. Reports and participant views will allow organizers to extract and filter key data points effectively.
+
+
+
+
+| Component                | Input                                                                                       | Process                                                                                     | Output                                                                                           |
+|--------------------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| Participant Registration | - First Name<br>- Last Name<br>- Email<br>- Phone<br>- Role<br>- Attendance Days           | - Validate fields<br>- Show role-specific sections<br>- Calculate fee<br>- Save to XML      | - New participant record saved<br>- Confirmation message<br>- Fee stored                        |
+| Vendor Details           | - Business Name<br>- Product Type<br>- Product Description <br>- Booth Size<br>- Food Handler Certificate #| - Check for "Vegan options" subtype<br>- Menu Descriptions if needed                           | - Extended vendor record with booth and product details                                          |
+| Performer Details        | - Stage Name<br>- Performance Type<br>- Technical Requirements           | - Map to Performer fields<br>- Add optional rehearsal and background info                  | - Performer record appended with cultural and technical details                                  |
+| Beauty Artist Details    | - Service Type<br>- Equipment & License Checkboxes                      | - Validate and attach beauty-specific attributes                                            | - Record includes beauty service type and credentials                                            |
+| Food Vendor Extension    | - Food Category<br>- Menu Description<br>- Vegan Option<br>- Certification ID               | - Append only if Product Type = "Food"                                                      | - Food vendor details attached to vendor record                                                  |
+| View Participants        | - Role filter<br>- Year filter                                                              | - Read from XML<br>- Apply selected filters<br>- Bind to DataGridView                       | - Filtered list of participants displayed in grid                                                |
+| Search Participant       | - Search name                                                                  | - Lookup participant in DataTable                                                           | - Found participant’s full record or “not found” message                                         |
+| Calculate Total Fees     | - Participant DataTable                                                                     | - Iterate rows<br>- Sum all Fee column values                                               | - Total revenue from registrations                                                               |
+| Save Data to XML         | - DataTable of participants                                                                 | - Write to XML using WriteXml                                                               | - `participants.xml` updated with new or modified data                                           |
+| Load Data from XML       | - `participants.xml` file                                                                   | - Use ReadXml to load data into DataTable                                                   | - Participant list displayed in UI
+
+
+
+> Written with [StackEdit](https://stackedit.io/).
