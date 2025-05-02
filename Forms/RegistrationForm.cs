@@ -8,8 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using 2025ArtofBeautyFestival.Forms;
 
-namespace _2025ArtofBeautyFestival.Forms
+namespace 2025ArtofBeautyFestival.Forms
 {
     public partial class RegistrationForm : Form
     {
@@ -65,6 +66,14 @@ namespace _2025ArtofBeautyFestival.Forms
         private Label lblPriceRange;
         private Label lblProductDescription;
         private TextBox txtProductDescription;
+        private GroupBox grpFoodVendor;
+        private Label lblFoodCategory;
+        private Label lblFoodHandlerCert;
+        private Label lblMenuDescription;
+        private ComboBox cmbFoodCategory;
+        private TextBox txtMenuDescription;
+        private CheckBox chkVeganOptions;
+        private TextBox txtFoodHandlerCert;
         private Label lblRegistrationFormTitle;
 
         public RegistrationForm()
@@ -257,45 +266,54 @@ namespace _2025ArtofBeautyFestival.Forms
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.lblAttendance = new System.Windows.Forms.Label();
             this.grpVendor = new System.Windows.Forms.GroupBox();
-            this.lblBoothSize = new System.Windows.Forms.Label();
-            this.cmbBoothSize = new System.Windows.Forms.ComboBox();
-            this.chkElectricity = new System.Windows.Forms.CheckBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.lblPriceRange = new System.Windows.Forms.Label();
+            this.txtProductDescription = new System.Windows.Forms.TextBox();
+            this.lblProductDescription = new System.Windows.Forms.Label();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.cmbProductType = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtBusinessName = new System.Windows.Forms.Label();
             this.chkCornerBooth = new System.Windows.Forms.CheckBox();
+            this.chkElectricity = new System.Windows.Forms.CheckBox();
+            this.cmbBoothSize = new System.Windows.Forms.ComboBox();
+            this.lblBoothSize = new System.Windows.Forms.Label();
             this.lblFeeLabel = new System.Windows.Forms.Label();
             this.lblFeeAmount = new System.Windows.Forms.Label();
             this.btnRegister = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.grpPerformer = new System.Windows.Forms.GroupBox();
-            this.lblStageName = new System.Windows.Forms.Label();
-            this.txtStageName = new System.Windows.Forms.TextBox();
-            this.lblDuration = new System.Windows.Forms.Label();
-            this.txtTechnicalRequirements = new System.Windows.Forms.TextBox();
-            this.lblTechnicalRequirements = new System.Windows.Forms.Label();
-            this.lblPerformanceType = new System.Windows.Forms.Label();
-            this.cmbPerformanceType = new System.Windows.Forms.ComboBox();
-            this.lblNumPerformers = new System.Windows.Forms.Label();
-            this.numPerformers = new System.Windows.Forms.NumericUpDown();
+            this.chkAvailableForRehearsals = new System.Windows.Forms.CheckBox();
+            this.cmbDuration = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lblCulturalBackground = new System.Windows.Forms.Label();
-            this.cmbDuration = new System.Windows.Forms.ComboBox();
-            this.chkAvailableForRehearsals = new System.Windows.Forms.CheckBox();
+            this.numPerformers = new System.Windows.Forms.NumericUpDown();
+            this.lblNumPerformers = new System.Windows.Forms.Label();
+            this.cmbPerformanceType = new System.Windows.Forms.ComboBox();
+            this.lblPerformanceType = new System.Windows.Forms.Label();
+            this.txtTechnicalRequirements = new System.Windows.Forms.TextBox();
+            this.lblTechnicalRequirements = new System.Windows.Forms.Label();
+            this.lblDuration = new System.Windows.Forms.Label();
+            this.txtStageName = new System.Windows.Forms.TextBox();
+            this.lblStageName = new System.Windows.Forms.Label();
             this.grpBeautyArtist = new System.Windows.Forms.GroupBox();
-            this.lblServiceType = new System.Windows.Forms.Label();
-            this.cmbServiceType = new System.Windows.Forms.ComboBox();
-            this.chkBringingEquipment = new System.Windows.Forms.CheckBox();
             this.chkLicensedProfessional = new System.Windows.Forms.CheckBox();
-            this.txtBusinessName = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.cmbProductType = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.lblProductDescription = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.lblPriceRange = new System.Windows.Forms.Label();
-            this.txtProductDescription = new System.Windows.Forms.TextBox();
+            this.chkBringingEquipment = new System.Windows.Forms.CheckBox();
+            this.cmbServiceType = new System.Windows.Forms.ComboBox();
+            this.lblServiceType = new System.Windows.Forms.Label();
+            this.grpFoodVendor = new System.Windows.Forms.GroupBox();
+            this.lblFoodCategory = new System.Windows.Forms.Label();
+            this.lblMenuDescription = new System.Windows.Forms.Label();
+            this.lblFoodHandlerCert = new System.Windows.Forms.Label();
+            this.cmbFoodCategory = new System.Windows.Forms.ComboBox();
+            this.chkVeganOptions = new System.Windows.Forms.CheckBox();
+            this.txtMenuDescription = new System.Windows.Forms.TextBox();
+            this.txtFoodHandlerCert = new System.Windows.Forms.TextBox();
             this.grpVendor.SuspendLayout();
             this.grpPerformer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numPerformers)).BeginInit();
             this.grpBeautyArtist.SuspendLayout();
+            this.grpFoodVendor.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblRegistrationFormTitle
@@ -455,15 +473,98 @@ namespace _2025ArtofBeautyFestival.Forms
             this.grpVendor.Text = "Vendor Registration";
             this.grpVendor.Enter += new System.EventHandler(this.grpVendor_Enter);
             // 
-            // lblBoothSize
+            // textBox4
             // 
-            this.lblBoothSize.AutoSize = true;
-            this.lblBoothSize.Location = new System.Drawing.Point(461, 128);
-            this.lblBoothSize.Name = "lblBoothSize";
-            this.lblBoothSize.Size = new System.Drawing.Size(91, 20);
-            this.lblBoothSize.TabIndex = 0;
-            this.lblBoothSize.Text = "Booth Size";
-            this.lblBoothSize.Click += new System.EventHandler(this.label1_Click_3);
+            this.textBox4.Location = new System.Drawing.Point(144, 121);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(185, 27);
+            this.textBox4.TabIndex = 11;
+            // 
+            // lblPriceRange
+            // 
+            this.lblPriceRange.AutoSize = true;
+            this.lblPriceRange.Location = new System.Drawing.Point(18, 128);
+            this.lblPriceRange.Name = "lblPriceRange";
+            this.lblPriceRange.Size = new System.Drawing.Size(101, 20);
+            this.lblPriceRange.TabIndex = 10;
+            this.lblPriceRange.Text = "Price Range";
+            // 
+            // txtProductDescription
+            // 
+            this.txtProductDescription.Location = new System.Drawing.Point(179, 58);
+            this.txtProductDescription.Multiline = true;
+            this.txtProductDescription.Name = "txtProductDescription";
+            this.txtProductDescription.ShortcutsEnabled = false;
+            this.txtProductDescription.Size = new System.Drawing.Size(969, 57);
+            this.txtProductDescription.TabIndex = 9;
+            // 
+            // lblProductDescription
+            // 
+            this.lblProductDescription.AutoSize = true;
+            this.lblProductDescription.Location = new System.Drawing.Point(5, 80);
+            this.lblProductDescription.Name = "lblProductDescription";
+            this.lblProductDescription.Size = new System.Drawing.Size(158, 20);
+            this.lblProductDescription.TabIndex = 8;
+            this.lblProductDescription.Text = "Product Description";
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "Art,",
+            "Jewelry,",
+            "Beauty Products,",
+            "Food"});
+            this.comboBox3.Location = new System.Drawing.Point(685, 22);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(112, 28);
+            this.comboBox3.TabIndex = 7;
+            this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged_1);
+            // 
+            // cmbProductType
+            // 
+            this.cmbProductType.AutoSize = true;
+            this.cmbProductType.Location = new System.Drawing.Point(571, 30);
+            this.cmbProductType.Name = "cmbProductType";
+            this.cmbProductType.Size = new System.Drawing.Size(108, 20);
+            this.cmbProductType.TabIndex = 6;
+            this.cmbProductType.Text = "Product Type";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(144, 25);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(287, 27);
+            this.textBox2.TabIndex = 5;
+            // 
+            // txtBusinessName
+            // 
+            this.txtBusinessName.AutoSize = true;
+            this.txtBusinessName.Location = new System.Drawing.Point(6, 30);
+            this.txtBusinessName.Name = "txtBusinessName";
+            this.txtBusinessName.Size = new System.Drawing.Size(128, 20);
+            this.txtBusinessName.TabIndex = 4;
+            this.txtBusinessName.Text = "Business Name";
+            // 
+            // chkCornerBooth
+            // 
+            this.chkCornerBooth.AutoSize = true;
+            this.chkCornerBooth.Location = new System.Drawing.Point(974, 129);
+            this.chkCornerBooth.Name = "chkCornerBooth";
+            this.chkCornerBooth.Size = new System.Drawing.Size(174, 24);
+            this.chkCornerBooth.TabIndex = 3;
+            this.chkCornerBooth.Text = "Corner Booth - $75";
+            this.chkCornerBooth.UseVisualStyleBackColor = true;
+            // 
+            // chkElectricity
+            // 
+            this.chkElectricity.AutoSize = true;
+            this.chkElectricity.Location = new System.Drawing.Point(747, 129);
+            this.chkElectricity.Name = "chkElectricity";
+            this.chkElectricity.Size = new System.Drawing.Size(201, 24);
+            this.chkElectricity.TabIndex = 2;
+            this.chkElectricity.Text = "Needs Electricity - $50";
+            this.chkElectricity.UseVisualStyleBackColor = true;
             // 
             // cmbBoothSize
             // 
@@ -478,25 +579,15 @@ namespace _2025ArtofBeautyFestival.Forms
             this.cmbBoothSize.TabIndex = 1;
             this.cmbBoothSize.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
-            // chkElectricity
+            // lblBoothSize
             // 
-            this.chkElectricity.AutoSize = true;
-            this.chkElectricity.Location = new System.Drawing.Point(747, 129);
-            this.chkElectricity.Name = "chkElectricity";
-            this.chkElectricity.Size = new System.Drawing.Size(201, 24);
-            this.chkElectricity.TabIndex = 2;
-            this.chkElectricity.Text = "Needs Electricity - $50";
-            this.chkElectricity.UseVisualStyleBackColor = true;
-            // 
-            // chkCornerBooth
-            // 
-            this.chkCornerBooth.AutoSize = true;
-            this.chkCornerBooth.Location = new System.Drawing.Point(974, 129);
-            this.chkCornerBooth.Name = "chkCornerBooth";
-            this.chkCornerBooth.Size = new System.Drawing.Size(174, 24);
-            this.chkCornerBooth.TabIndex = 3;
-            this.chkCornerBooth.Text = "Corner Booth - $75";
-            this.chkCornerBooth.UseVisualStyleBackColor = true;
+            this.lblBoothSize.AutoSize = true;
+            this.lblBoothSize.Location = new System.Drawing.Point(461, 128);
+            this.lblBoothSize.Name = "lblBoothSize";
+            this.lblBoothSize.Size = new System.Drawing.Size(91, 20);
+            this.lblBoothSize.TabIndex = 0;
+            this.lblBoothSize.Text = "Booth Size";
+            this.lblBoothSize.Click += new System.EventHandler(this.label1_Click_3);
             // 
             // lblFeeLabel
             // 
@@ -555,100 +646,35 @@ namespace _2025ArtofBeautyFestival.Forms
             this.grpPerformer.Controls.Add(this.txtStageName);
             this.grpPerformer.Controls.Add(this.lblStageName);
             this.grpPerformer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grpPerformer.Location = new System.Drawing.Point(71, 431);
+            this.grpPerformer.Location = new System.Drawing.Point(71, 682);
             this.grpPerformer.Name = "grpPerformer";
             this.grpPerformer.Size = new System.Drawing.Size(1164, 177);
             this.grpPerformer.TabIndex = 23;
             this.grpPerformer.TabStop = false;
             this.grpPerformer.Text = "Performer Registration";
+            this.grpPerformer.Enter += new System.EventHandler(this.grpPerformer_Enter);
             // 
-            // lblStageName
+            // chkAvailableForRehearsals
             // 
-            this.lblStageName.AutoSize = true;
-            this.lblStageName.Location = new System.Drawing.Point(6, 41);
-            this.lblStageName.Name = "lblStageName";
-            this.lblStageName.Size = new System.Drawing.Size(211, 20);
-            this.lblStageName.TabIndex = 0;
-            this.lblStageName.Text = "Stage Name / Group Name";
-            this.lblStageName.Click += new System.EventHandler(this.lblStageName_Click);
+            this.chkAvailableForRehearsals.AutoSize = true;
+            this.chkAvailableForRehearsals.Location = new System.Drawing.Point(665, 135);
+            this.chkAvailableForRehearsals.Name = "chkAvailableForRehearsals";
+            this.chkAvailableForRehearsals.Size = new System.Drawing.Size(222, 24);
+            this.chkAvailableForRehearsals.TabIndex = 13;
+            this.chkAvailableForRehearsals.Text = "Available for Rehearsals?";
+            this.chkAvailableForRehearsals.UseVisualStyleBackColor = true;
             // 
-            // txtStageName
+            // cmbDuration
             // 
-            this.txtStageName.Location = new System.Drawing.Point(234, 34);
-            this.txtStageName.Name = "txtStageName";
-            this.txtStageName.Size = new System.Drawing.Size(313, 27);
-            this.txtStageName.TabIndex = 1;
-            // 
-            // lblDuration
-            // 
-            this.lblDuration.AutoSize = true;
-            this.lblDuration.Location = new System.Drawing.Point(645, 102);
-            this.lblDuration.Name = "lblDuration";
-            this.lblDuration.Size = new System.Drawing.Size(174, 20);
-            this.lblDuration.TabIndex = 2;
-            this.lblDuration.Text = "Performance Duration";
-            // 
-            // txtTechnicalRequirements
-            // 
-            this.txtTechnicalRequirements.Location = new System.Drawing.Point(234, 93);
-            this.txtTechnicalRequirements.Multiline = true;
-            this.txtTechnicalRequirements.Name = "txtTechnicalRequirements";
-            this.txtTechnicalRequirements.Size = new System.Drawing.Size(374, 34);
-            this.txtTechnicalRequirements.TabIndex = 5;
-            // 
-            // lblTechnicalRequirements
-            // 
-            this.lblTechnicalRequirements.AutoSize = true;
-            this.lblTechnicalRequirements.Location = new System.Drawing.Point(27, 106);
-            this.lblTechnicalRequirements.Name = "lblTechnicalRequirements";
-            this.lblTechnicalRequirements.Size = new System.Drawing.Size(238, 25);
-            this.lblTechnicalRequirements.TabIndex = 4;
-            this.lblTechnicalRequirements.Text = "Technical Requirements";
-            // 
-            // lblPerformanceType
-            // 
-            this.lblPerformanceType.AutoSize = true;
-            this.lblPerformanceType.Enabled = false;
-            this.lblPerformanceType.Location = new System.Drawing.Point(573, 36);
-            this.lblPerformanceType.Name = "lblPerformanceType";
-            this.lblPerformanceType.Size = new System.Drawing.Size(146, 20);
-            this.lblPerformanceType.TabIndex = 6;
-            this.lblPerformanceType.Text = "Performance Type";
-            // 
-            // cmbPerformanceType
-            // 
-            this.cmbPerformanceType.FormattingEnabled = true;
-            this.cmbPerformanceType.Items.AddRange(new object[] {
-            "Music",          
-            "Dance",
-            "Theater",
-            "Spoken Word",
-            "Other"});
-            this.cmbPerformanceType.Location = new System.Drawing.Point(725, 34);
-            this.cmbPerformanceType.Name = "cmbPerformanceType";
-            this.cmbPerformanceType.Size = new System.Drawing.Size(183, 28);
-            this.cmbPerformanceType.TabIndex = 7;
-            // 
-            // lblNumPerformers
-            // 
-            this.lblNumPerformers.AutoSize = true;
-            this.lblNumPerformers.Location = new System.Drawing.Point(922, 42);
-            this.lblNumPerformers.Name = "lblNumPerformers";
-            this.lblNumPerformers.Size = new System.Drawing.Size(126, 20);
-            this.lblNumPerformers.TabIndex = 8;
-            this.lblNumPerformers.Text = "# of Performers";
-            // 
-            // numPerformers
-            // 
-            this.numPerformers.Location = new System.Drawing.Point(1073, 42);
-            this.numPerformers.Maximum = new decimal(new int[] {
-            75,
-            0,
-            0,
-            0});
-            this.numPerformers.Name = "numPerformers";
-            this.numPerformers.Size = new System.Drawing.Size(61, 27);
-            this.numPerformers.TabIndex = 9;
+            this.cmbDuration.FormattingEnabled = true;
+            this.cmbDuration.Items.AddRange(new object[] {
+            "10  Mins",
+            "15 Mins",
+            "20 Mins"});
+            this.cmbDuration.Location = new System.Drawing.Point(825, 99);
+            this.cmbDuration.Name = "cmbDuration";
+            this.cmbDuration.Size = new System.Drawing.Size(121, 28);
+            this.cmbDuration.TabIndex = 12;
             // 
             // textBox1
             // 
@@ -663,31 +689,97 @@ namespace _2025ArtofBeautyFestival.Forms
             this.lblCulturalBackground.AutoSize = true;
             this.lblCulturalBackground.Location = new System.Drawing.Point(43, 142);
             this.lblCulturalBackground.Name = "lblCulturalBackground";
-            this.lblCulturalBackground.Size = new System.Drawing.Size(201, 25);
+            this.lblCulturalBackground.Size = new System.Drawing.Size(161, 20);
             this.lblCulturalBackground.TabIndex = 10;
             this.lblCulturalBackground.Text = "Cultural Background";
             // 
-            // cmbDuration
+            // numPerformers
             // 
-            this.cmbDuration.FormattingEnabled = true;
-            this.cmbDuration.Items.AddRange(new object[] {
-            "10  Mins",
-            "15 Mins",
-            "20 Mins"});
-            this.cmbDuration.Location = new System.Drawing.Point(825, 99);
-            this.cmbDuration.Name = "cmbDuration";
-            this.cmbDuration.Size = new System.Drawing.Size(121, 28);
-            this.cmbDuration.TabIndex = 12;
+            this.numPerformers.Location = new System.Drawing.Point(1073, 42);
+            this.numPerformers.Maximum = new decimal(new int[] {
+            75,
+            0,
+            0,
+            0});
+            this.numPerformers.Name = "numPerformers";
+            this.numPerformers.Size = new System.Drawing.Size(61, 27);
+            this.numPerformers.TabIndex = 9;
             // 
-            // chkAvailableForRehearsals
+            // lblNumPerformers
             // 
-            this.chkAvailableForRehearsals.AutoSize = true;
-            this.chkAvailableForRehearsals.Location = new System.Drawing.Point(665, 135);
-            this.chkAvailableForRehearsals.Name = "chkAvailableForRehearsals";
-            this.chkAvailableForRehearsals.Size = new System.Drawing.Size(278, 30);
-            this.chkAvailableForRehearsals.TabIndex = 13;
-            this.chkAvailableForRehearsals.Text = "Available for Rehearsals?";
-            this.chkAvailableForRehearsals.UseVisualStyleBackColor = true;
+            this.lblNumPerformers.AutoSize = true;
+            this.lblNumPerformers.Location = new System.Drawing.Point(922, 42);
+            this.lblNumPerformers.Name = "lblNumPerformers";
+            this.lblNumPerformers.Size = new System.Drawing.Size(126, 20);
+            this.lblNumPerformers.TabIndex = 8;
+            this.lblNumPerformers.Text = "# of Performers";
+            // 
+            // cmbPerformanceType
+            // 
+            this.cmbPerformanceType.FormattingEnabled = true;
+            this.cmbPerformanceType.Items.AddRange(new object[] {
+            "Music",
+            "Dance",
+            "Theater",
+            "Spoken Word",
+            "Other"});
+            this.cmbPerformanceType.Location = new System.Drawing.Point(725, 34);
+            this.cmbPerformanceType.Name = "cmbPerformanceType";
+            this.cmbPerformanceType.Size = new System.Drawing.Size(183, 28);
+            this.cmbPerformanceType.TabIndex = 7;
+            // 
+            // lblPerformanceType
+            // 
+            this.lblPerformanceType.AutoSize = true;
+            this.lblPerformanceType.Enabled = false;
+            this.lblPerformanceType.Location = new System.Drawing.Point(573, 36);
+            this.lblPerformanceType.Name = "lblPerformanceType";
+            this.lblPerformanceType.Size = new System.Drawing.Size(146, 20);
+            this.lblPerformanceType.TabIndex = 6;
+            this.lblPerformanceType.Text = "Performance Type";
+            // 
+            // txtTechnicalRequirements
+            // 
+            this.txtTechnicalRequirements.Location = new System.Drawing.Point(234, 93);
+            this.txtTechnicalRequirements.Multiline = true;
+            this.txtTechnicalRequirements.Name = "txtTechnicalRequirements";
+            this.txtTechnicalRequirements.Size = new System.Drawing.Size(374, 34);
+            this.txtTechnicalRequirements.TabIndex = 5;
+            // 
+            // lblTechnicalRequirements
+            // 
+            this.lblTechnicalRequirements.AutoSize = true;
+            this.lblTechnicalRequirements.Location = new System.Drawing.Point(27, 106);
+            this.lblTechnicalRequirements.Name = "lblTechnicalRequirements";
+            this.lblTechnicalRequirements.Size = new System.Drawing.Size(190, 20);
+            this.lblTechnicalRequirements.TabIndex = 4;
+            this.lblTechnicalRequirements.Text = "Technical Requirements";
+            // 
+            // lblDuration
+            // 
+            this.lblDuration.AutoSize = true;
+            this.lblDuration.Location = new System.Drawing.Point(645, 102);
+            this.lblDuration.Name = "lblDuration";
+            this.lblDuration.Size = new System.Drawing.Size(174, 20);
+            this.lblDuration.TabIndex = 2;
+            this.lblDuration.Text = "Performance Duration";
+            // 
+            // txtStageName
+            // 
+            this.txtStageName.Location = new System.Drawing.Point(234, 34);
+            this.txtStageName.Name = "txtStageName";
+            this.txtStageName.Size = new System.Drawing.Size(313, 27);
+            this.txtStageName.TabIndex = 1;
+            // 
+            // lblStageName
+            // 
+            this.lblStageName.AutoSize = true;
+            this.lblStageName.Location = new System.Drawing.Point(6, 41);
+            this.lblStageName.Name = "lblStageName";
+            this.lblStageName.Size = new System.Drawing.Size(211, 20);
+            this.lblStageName.TabIndex = 0;
+            this.lblStageName.Text = "Stage Name / Group Name";
+            this.lblStageName.Click += new System.EventHandler(this.lblStageName_Click);
             // 
             // grpBeautyArtist
             // 
@@ -696,7 +788,7 @@ namespace _2025ArtofBeautyFestival.Forms
             this.grpBeautyArtist.Controls.Add(this.cmbServiceType);
             this.grpBeautyArtist.Controls.Add(this.lblServiceType);
             this.grpBeautyArtist.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grpBeautyArtist.Location = new System.Drawing.Point(71, 651);
+            this.grpBeautyArtist.Location = new System.Drawing.Point(71, 902);
             this.grpBeautyArtist.Name = "grpBeautyArtist";
             this.grpBeautyArtist.Size = new System.Drawing.Size(1164, 96);
             this.grpBeautyArtist.TabIndex = 24;
@@ -704,14 +796,25 @@ namespace _2025ArtofBeautyFestival.Forms
             this.grpBeautyArtist.Text = "Beauty Artist Registration";
             this.grpBeautyArtist.Enter += new System.EventHandler(this.grpBeautyArtist_Enter);
             // 
-            // lblServiceType
+            // chkLicensedProfessional
             // 
-            this.lblServiceType.AutoSize = true;
-            this.lblServiceType.Location = new System.Drawing.Point(18, 38);
-            this.lblServiceType.Name = "lblServiceType";
-            this.lblServiceType.Size = new System.Drawing.Size(133, 25);
-            this.lblServiceType.TabIndex = 0;
-            this.lblServiceType.Text = "Service Type";
+            this.chkLicensedProfessional.AutoSize = true;
+            this.chkLicensedProfessional.Location = new System.Drawing.Point(732, 32);
+            this.chkLicensedProfessional.Name = "chkLicensedProfessional";
+            this.chkLicensedProfessional.Size = new System.Drawing.Size(206, 24);
+            this.chkLicensedProfessional.TabIndex = 6;
+            this.chkLicensedProfessional.Text = "Licensed Professional?";
+            this.chkLicensedProfessional.UseVisualStyleBackColor = true;
+            // 
+            // chkBringingEquipment
+            // 
+            this.chkBringingEquipment.AutoSize = true;
+            this.chkBringingEquipment.Location = new System.Drawing.Point(444, 32);
+            this.chkBringingEquipment.Name = "chkBringingEquipment";
+            this.chkBringingEquipment.Size = new System.Drawing.Size(264, 24);
+            this.chkBringingEquipment.TabIndex = 5;
+            this.chkBringingEquipment.Text = "Bringing Your Own Equipment?";
+            this.chkBringingEquipment.UseVisualStyleBackColor = true;
             // 
             // cmbServiceType
             // 
@@ -727,103 +830,109 @@ namespace _2025ArtofBeautyFestival.Forms
             this.cmbServiceType.Size = new System.Drawing.Size(264, 28);
             this.cmbServiceType.TabIndex = 1;
             // 
-            // chkBringingEquipment
+            // lblServiceType
             // 
-            this.chkBringingEquipment.AutoSize = true;
-            this.chkBringingEquipment.Location = new System.Drawing.Point(444, 32);
-            this.chkBringingEquipment.Name = "chkBringingEquipment";
-            this.chkBringingEquipment.Size = new System.Drawing.Size(264, 24);
-            this.chkBringingEquipment.TabIndex = 5;
-            this.chkBringingEquipment.Text = "Bringing Your Own Equipment?";
-            this.chkBringingEquipment.UseVisualStyleBackColor = true;
+            this.lblServiceType.AutoSize = true;
+            this.lblServiceType.Location = new System.Drawing.Point(18, 38);
+            this.lblServiceType.Name = "lblServiceType";
+            this.lblServiceType.Size = new System.Drawing.Size(106, 20);
+            this.lblServiceType.TabIndex = 0;
+            this.lblServiceType.Text = "Service Type";
             // 
-            // chkLicensedProfessional
+            // grpFoodVendor
             // 
-            this.chkLicensedProfessional.AutoSize = true;
-            this.chkLicensedProfessional.Location = new System.Drawing.Point(732, 32);
-            this.chkLicensedProfessional.Name = "chkLicensedProfessional";
-            this.chkLicensedProfessional.Size = new System.Drawing.Size(206, 24);
-            this.chkLicensedProfessional.TabIndex = 6;
-            this.chkLicensedProfessional.Text = "Licensed Professional?";
-            this.chkLicensedProfessional.UseVisualStyleBackColor = true;
+            this.grpFoodVendor.Controls.Add(this.txtFoodHandlerCert);
+            this.grpFoodVendor.Controls.Add(this.txtMenuDescription);
+            this.grpFoodVendor.Controls.Add(this.chkVeganOptions);
+            this.grpFoodVendor.Controls.Add(this.cmbFoodCategory);
+            this.grpFoodVendor.Controls.Add(this.lblFoodHandlerCert);
+            this.grpFoodVendor.Controls.Add(this.lblMenuDescription);
+            this.grpFoodVendor.Controls.Add(this.lblFoodCategory);
+            this.grpFoodVendor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grpFoodVendor.Location = new System.Drawing.Point(71, 439);
+            this.grpFoodVendor.Name = "grpFoodVendor";
+            this.grpFoodVendor.Size = new System.Drawing.Size(1164, 144);
+            this.grpFoodVendor.TabIndex = 14;
+            this.grpFoodVendor.TabStop = false;
+            this.grpFoodVendor.Text = "Food Vendor Details";
             // 
-            // txtBusinessName
+            // lblFoodCategory
             // 
-            this.txtBusinessName.AutoSize = true;
-            this.txtBusinessName.Location = new System.Drawing.Point(6, 30);
-            this.txtBusinessName.Name = "txtBusinessName";
-            this.txtBusinessName.Size = new System.Drawing.Size(128, 20);
-            this.txtBusinessName.TabIndex = 4;
-            this.txtBusinessName.Text = "Business Name";
+            this.lblFoodCategory.AutoSize = true;
+            this.lblFoodCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFoodCategory.Location = new System.Drawing.Point(18, 43);
+            this.lblFoodCategory.Name = "lblFoodCategory";
+            this.lblFoodCategory.Size = new System.Drawing.Size(118, 20);
+            this.lblFoodCategory.TabIndex = 0;
+            this.lblFoodCategory.Text = "Food Category";
             // 
-            // textBox2
+            // lblMenuDescription
             // 
-            this.textBox2.Location = new System.Drawing.Point(144, 25);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(287, 27);
-            this.textBox2.TabIndex = 5;
+            this.lblMenuDescription.AutoSize = true;
+            this.lblMenuDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMenuDescription.Location = new System.Drawing.Point(440, 33);
+            this.lblMenuDescription.Name = "lblMenuDescription";
+            this.lblMenuDescription.Size = new System.Drawing.Size(141, 20);
+            this.lblMenuDescription.TabIndex = 1;
+            this.lblMenuDescription.Text = "Menu Description";
+            this.lblMenuDescription.Click += new System.EventHandler(this.lblMenuDescription_Click);
             // 
-            // cmbProductType
+            // lblFoodHandlerCert
             // 
-            this.cmbProductType.AutoSize = true;
-            this.cmbProductType.Location = new System.Drawing.Point(440, 32);
-            this.cmbProductType.Name = "cmbProductType";
-            this.cmbProductType.Size = new System.Drawing.Size(108, 20);
-            this.cmbProductType.TabIndex = 6;
-            this.cmbProductType.Text = "Product Type";
+            this.lblFoodHandlerCert.AutoSize = true;
+            this.lblFoodHandlerCert.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFoodHandlerCert.Location = new System.Drawing.Point(278, 104);
+            this.lblFoodHandlerCert.Name = "lblFoodHandlerCert";
+            this.lblFoodHandlerCert.Size = new System.Drawing.Size(264, 25);
+            this.lblFoodHandlerCert.TabIndex = 3;
+            this.lblFoodHandlerCert.Text = "Food Handler Certificate #:";
+            this.lblFoodHandlerCert.Click += new System.EventHandler(this.label4_Click);
             // 
-            // comboBox3
+            // cmbFoodCategory
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "Art,",
-            "Jewelry,",
-            "Beauty Products,",
-            "Food"});
-            this.comboBox3.Location = new System.Drawing.Point(554, 24);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(112, 28);
-            this.comboBox3.TabIndex = 7;
-            this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged_1);
+            this.cmbFoodCategory.FormattingEnabled = true;
+            this.cmbFoodCategory.Items.AddRange(new object[] {
+            "Entrées",
+            "Desserts",
+            "Beverages",
+            "Snacks"});
+            this.cmbFoodCategory.Location = new System.Drawing.Point(159, 35);
+            this.cmbFoodCategory.Name = "cmbFoodCategory";
+            this.cmbFoodCategory.Size = new System.Drawing.Size(205, 28);
+            this.cmbFoodCategory.TabIndex = 4;
+            this.cmbFoodCategory.SelectedIndexChanged += new System.EventHandler(this.comboBox4_SelectedIndexChanged);
             // 
-            // lblProductDescription
+            // chkVeganOptions
             // 
-            this.lblProductDescription.AutoSize = true;
-            this.lblProductDescription.Location = new System.Drawing.Point(687, 33);
-            this.lblProductDescription.Name = "lblProductDescription";
-            this.lblProductDescription.Size = new System.Drawing.Size(158, 20);
-            this.lblProductDescription.TabIndex = 8;
-            this.lblProductDescription.Text = "Product Description";
+            this.chkVeganOptions.AutoSize = true;
+            this.chkVeganOptions.Location = new System.Drawing.Point(24, 100);
+            this.chkVeganOptions.Name = "chkVeganOptions";
+            this.chkVeganOptions.Size = new System.Drawing.Size(213, 24);
+            this.chkVeganOptions.TabIndex = 5;
+            this.chkVeganOptions.Text = "Vegan Options Available";
+            this.chkVeganOptions.UseVisualStyleBackColor = true;
             // 
-            // textBox4
+            // txtMenuDescription
             // 
-            this.textBox4.Location = new System.Drawing.Point(144, 121);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(185, 27);
-            this.textBox4.TabIndex = 11;
+            this.txtMenuDescription.Location = new System.Drawing.Point(595, 17);
+            this.txtMenuDescription.Multiline = true;
+            this.txtMenuDescription.Name = "txtMenuDescription";
+            this.txtMenuDescription.Size = new System.Drawing.Size(553, 68);
+            this.txtMenuDescription.TabIndex = 6;
+            this.txtMenuDescription.TextChanged += new System.EventHandler(this.txtMenuDescription_TextChanged);
             // 
-            // lblPriceRange
+            // txtFoodHandlerCert
             // 
-            this.lblPriceRange.AutoSize = true;
-            this.lblPriceRange.Location = new System.Drawing.Point(18, 128);
-            this.lblPriceRange.Name = "lblPriceRange";
-            this.lblPriceRange.Size = new System.Drawing.Size(101, 20);
-            this.lblPriceRange.TabIndex = 10;
-            this.lblPriceRange.Text = "Price Range";
-            // 
-            // txtProductDescription
-            // 
-            this.txtProductDescription.Location = new System.Drawing.Point(860, 30);
-            this.txtProductDescription.Multiline = true;
-            this.txtProductDescription.Name = "txtProductDescription";
-            this.txtProductDescription.ShortcutsEnabled = false;
-            this.txtProductDescription.Size = new System.Drawing.Size(298, 76);
-            this.txtProductDescription.TabIndex = 9;
+            this.txtFoodHandlerCert.Location = new System.Drawing.Point(502, 97);
+            this.txtFoodHandlerCert.Name = "txtFoodHandlerCert";
+            this.txtFoodHandlerCert.Size = new System.Drawing.Size(227, 27);
+            this.txtFoodHandlerCert.TabIndex = 7;
             // 
             // RegistrationForm
             // 
             this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(1318, 1146);
+            this.Controls.Add(this.grpFoodVendor);
             this.Controls.Add(this.grpBeautyArtist);
             this.Controls.Add(this.grpPerformer);
             this.Controls.Add(this.btnCancel);
@@ -853,6 +962,8 @@ namespace _2025ArtofBeautyFestival.Forms
             ((System.ComponentModel.ISupportInitialize)(this.numPerformers)).EndInit();
             this.grpBeautyArtist.ResumeLayout(false);
             this.grpBeautyArtist.PerformLayout();
+            this.grpFoodVendor.ResumeLayout(false);
+            this.grpFoodVendor.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -955,6 +1066,44 @@ namespace _2025ArtofBeautyFestival.Forms
         }
 
         private void comboBox3_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox4_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMenuDescription_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblMenuDescription_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void cmbProductType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cmbProductType.SelectedItem?.ToString() == "Food")
+            {
+                grpFoodVendor.Visible = true;
+            }
+            else
+            {
+                grpFoodVendor.Visible = false;
+            }
+        }
+
+        private void grpPerformer_Enter(object sender, EventArgs e)
         {
 
         }

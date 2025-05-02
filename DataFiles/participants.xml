@@ -1,3 +1,703 @@
-﻿<?xml version="1.0" standalone="yes"?>
-<Participants>
-</Participants>
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <row>
+    <FirstName>Ava</FirstName>
+    <LastName>Brown</LastName>
+    <Email>ava.brown@festivalmail.com</Email>
+    <Phone>(555) 000-1000</Phone>
+    <Role>Beauty Artist</Role>
+    <Attendance>Both</Attendance>
+    <Fee>100</Fee>
+    <FestivalYear>2025</FestivalYear>
+    <ServiceType>Makeup</ServiceType>
+    <PortfolioLink>http://beautyportfolio.com/ava0</PortfolioLink>
+    <BringingEquipment>False</BringingEquipment>
+    <LicensedProfessional>False</LicensedProfessional>
+    <BusinessName/>
+    <ProductType/>
+    <ProductDescription/>
+    <PriceRange/>
+    <BoothSize/>
+    <Electricity/>
+    <CornerBooth/>
+    <BusinessLicense/>
+    <InsuranceInfo/>
+    <StageName/>
+    <PerformanceType/>
+    <NumPerformers/>
+    <TechnicalRequirements/>
+    <PerformanceDuration/>
+    <SampleLink/>
+    <CulturalBackground/>
+    <AvailableForRehearsals/>
+    <FoodCategory/>
+    <MenuDescription/>
+    <VeganOptions/>
+    <FoodHandlerCert/>
+  </row>
+  <row>
+    <FirstName>Ava</FirstName>
+    <LastName>Hernandez</LastName>
+    <Email>ava.hernandez@festivalmail.com</Email>
+    <Phone>(555) 000-1001</Phone>
+    <Role>Vendor</Role>
+    <Attendance>Day 1</Attendance>
+    <Fee>250</Fee>
+    <FestivalYear>2025</FestivalYear>
+    <ServiceType/>
+    <PortfolioLink/>
+    <BringingEquipment/>
+    <LicensedProfessional/>
+    <BusinessName>Hernandez Creations</BusinessName>
+    <ProductType>Jewelry</ProductType>
+    <ProductDescription>High quality handmade jewelry</ProductDescription>
+    <PriceRange>$14-$30</PriceRange>
+    <BoothSize>Large</BoothSize>
+    <Electricity>True</Electricity>
+    <CornerBooth>False</CornerBooth>
+    <BusinessLicense>LIC-1001</BusinessLicense>
+    <InsuranceInfo>Coverage-1</InsuranceInfo>
+    <StageName/>
+    <PerformanceType/>
+    <NumPerformers/>
+    <TechnicalRequirements/>
+    <PerformanceDuration/>
+    <SampleLink/>
+    <CulturalBackground/>
+    <AvailableForRehearsals/>
+    <FoodCategory/>
+    <MenuDescription/>
+    <VeganOptions/>
+    <FoodHandlerCert/>
+  </row>
+  <row>
+    <FirstName>Noah</FirstName>
+    <LastName>Martinez</LastName>
+    <Email>noah.martinez@festivalmail.com</Email>
+    <Phone>(555) 000-1002</Phone>
+    <Role>Performer</Role>
+    <Attendance>Day 1</Attendance>
+    <Fee>50</Fee>
+    <FestivalYear>2025</FestivalYear>
+    <ServiceType/>
+    <PortfolioLink/>
+    <BringingEquipment/>
+    <LicensedProfessional/>
+    <BusinessName/>
+    <ProductType/>
+    <ProductDescription/>
+    <PriceRange/>
+    <BoothSize/>
+    <Electricity/>
+    <CornerBooth/>
+    <BusinessLicense/>
+    <InsuranceInfo/>
+    <StageName>Noah &amp; Co.</StageName>
+    <PerformanceType>Music</PerformanceType>
+    <NumPerformers>2.0</NumPerformers>
+    <TechnicalRequirements>Mic, Speakers</TechnicalRequirements>
+    <PerformanceDuration>27 min</PerformanceDuration>
+    <SampleLink>http://festivalperformers.com/sample2</SampleLink>
+    <CulturalBackground>Multicultural</CulturalBackground>
+    <AvailableForRehearsals>True</AvailableForRehearsals>
+    <FoodCategory/>
+    <MenuDescription/>
+    <VeganOptions/>
+    <FoodHandlerCert/>
+  </row>
+  <row>
+    <FirstName>Ava</FirstName>
+    <LastName>Smith</LastName>
+    <Email>ava.smith@festivalmail.com</Email>
+    <Phone>(555) 000-1003</Phone>
+    <Role>Performer</Role>
+    <Attendance>Both</Attendance>
+    <Fee>50</Fee>
+    <FestivalYear>2025</FestivalYear>
+    <ServiceType/>
+    <PortfolioLink/>
+    <BringingEquipment/>
+    <LicensedProfessional/>
+    <BusinessName/>
+    <ProductType/>
+    <ProductDescription/>
+    <PriceRange/>
+    <BoothSize/>
+    <Electricity/>
+    <CornerBooth/>
+    <BusinessLicense/>
+    <InsuranceInfo/>
+    <StageName>Ava &amp; Co.</StageName>
+    <PerformanceType>Dance</PerformanceType>
+    <NumPerformers>5.0</NumPerformers>
+    <TechnicalRequirements>Mic, Speakers</TechnicalRequirements>
+    <PerformanceDuration>25 min</PerformanceDuration>
+    <SampleLink>http://festivalperformers.com/sample3</SampleLink>
+    <CulturalBackground>Multicultural</CulturalBackground>
+    <AvailableForRehearsals>False</AvailableForRehearsals>
+    <FoodCategory/>
+    <MenuDescription/>
+    <VeganOptions/>
+    <FoodHandlerCert/>
+  </row>
+  <row>
+    <FirstName>Ava</FirstName>
+    <LastName>Johnson</LastName>
+    <Email>ava.johnson@festivalmail.com</Email>
+    <Phone>(555) 000-1004</Phone>
+    <Role>Beauty Artist</Role>
+    <Attendance>Both</Attendance>
+    <Fee>100</Fee>
+    <FestivalYear>2025</FestivalYear>
+    <ServiceType>Makeup</ServiceType>
+    <PortfolioLink>http://beautyportfolio.com/ava4</PortfolioLink>
+    <BringingEquipment>False</BringingEquipment>
+    <LicensedProfessional>True</LicensedProfessional>
+    <BusinessName/>
+    <ProductType/>
+    <ProductDescription/>
+    <PriceRange/>
+    <BoothSize/>
+    <Electricity/>
+    <CornerBooth/>
+    <BusinessLicense/>
+    <InsuranceInfo/>
+    <StageName/>
+    <PerformanceType/>
+    <NumPerformers/>
+    <TechnicalRequirements/>
+    <PerformanceDuration/>
+    <SampleLink/>
+    <CulturalBackground/>
+    <AvailableForRehearsals/>
+    <FoodCategory/>
+    <MenuDescription/>
+    <VeganOptions/>
+    <FoodHandlerCert/>
+  </row>
+  <row>
+    <FirstName>Elijah</FirstName>
+    <LastName>Davis</LastName>
+    <Email>elijah.davis@festivalmail.com</Email>
+    <Phone>(555) 000-1005</Phone>
+    <Role>Vendor</Role>
+    <Attendance>Day 1</Attendance>
+    <Fee>150</Fee>
+    <FestivalYear>2025</FestivalYear>
+    <ServiceType/>
+    <PortfolioLink/>
+    <BringingEquipment/>
+    <LicensedProfessional/>
+    <BusinessName>Davis Creations</BusinessName>
+    <ProductType>Art</ProductType>
+    <ProductDescription>High quality handmade art</ProductDescription>
+    <PriceRange>$12-$33</PriceRange>
+    <BoothSize>Large</BoothSize>
+    <Electricity>True</Electricity>
+    <CornerBooth>True</CornerBooth>
+    <BusinessLicense>LIC-1005</BusinessLicense>
+    <InsuranceInfo>Coverage-5</InsuranceInfo>
+    <StageName/>
+    <PerformanceType/>
+    <NumPerformers/>
+    <TechnicalRequirements/>
+    <PerformanceDuration/>
+    <SampleLink/>
+    <CulturalBackground/>
+    <AvailableForRehearsals/>
+    <FoodCategory/>
+    <MenuDescription/>
+    <VeganOptions/>
+    <FoodHandlerCert/>
+  </row>
+  <row>
+    <FirstName>Isabella</FirstName>
+    <LastName>Smith</LastName>
+    <Email>isabella.smith@festivalmail.com</Email>
+    <Phone>(555) 000-1006</Phone>
+    <Role>Beauty Artist</Role>
+    <Attendance>Day 2</Attendance>
+    <Fee>100</Fee>
+    <FestivalYear>2025</FestivalYear>
+    <ServiceType>Nails</ServiceType>
+    <PortfolioLink>http://beautyportfolio.com/isabella6</PortfolioLink>
+    <BringingEquipment>True</BringingEquipment>
+    <LicensedProfessional>False</LicensedProfessional>
+    <BusinessName/>
+    <ProductType/>
+    <ProductDescription/>
+    <PriceRange/>
+    <BoothSize/>
+    <Electricity/>
+    <CornerBooth/>
+    <BusinessLicense/>
+    <InsuranceInfo/>
+    <StageName/>
+    <PerformanceType/>
+    <NumPerformers/>
+    <TechnicalRequirements/>
+    <PerformanceDuration/>
+    <SampleLink/>
+    <CulturalBackground/>
+    <AvailableForRehearsals/>
+    <FoodCategory/>
+    <MenuDescription/>
+    <VeganOptions/>
+    <FoodHandlerCert/>
+  </row>
+  <row>
+    <FirstName>Olivia</FirstName>
+    <LastName>Jones</LastName>
+    <Email>olivia.jones@festivalmail.com</Email>
+    <Phone>(555) 000-1007</Phone>
+    <Role>Attendee</Role>
+    <Attendance>Day 1</Attendance>
+    <Fee>25</Fee>
+    <FestivalYear>2025</FestivalYear>
+    <ServiceType/>
+    <PortfolioLink/>
+    <BringingEquipment/>
+    <LicensedProfessional/>
+    <BusinessName/>
+    <ProductType/>
+    <ProductDescription/>
+    <PriceRange/>
+    <BoothSize/>
+    <Electricity/>
+    <CornerBooth/>
+    <BusinessLicense/>
+    <InsuranceInfo/>
+    <StageName/>
+    <PerformanceType/>
+    <NumPerformers/>
+    <TechnicalRequirements/>
+    <PerformanceDuration/>
+    <SampleLink/>
+    <CulturalBackground/>
+    <AvailableForRehearsals/>
+    <FoodCategory/>
+    <MenuDescription/>
+    <VeganOptions/>
+    <FoodHandlerCert/>
+  </row>
+  <row>
+    <FirstName>Benjamin</FirstName>
+    <LastName>Davis</LastName>
+    <Email>benjamin.davis@festivalmail.com</Email>
+    <Phone>(555) 000-1008</Phone>
+    <Role>Vendor</Role>
+    <Attendance>Both</Attendance>
+    <Fee>400</Fee>
+    <FestivalYear>2025</FestivalYear>
+    <ServiceType/>
+    <PortfolioLink/>
+    <BringingEquipment/>
+    <LicensedProfessional/>
+    <BusinessName>Davis Creations</BusinessName>
+    <ProductType>Food</ProductType>
+    <ProductDescription>High quality handmade food</ProductDescription>
+    <PriceRange>$13-$27</PriceRange>
+    <BoothSize>Large</BoothSize>
+    <Electricity>True</Electricity>
+    <CornerBooth>True</CornerBooth>
+    <BusinessLicense>LIC-1008</BusinessLicense>
+    <InsuranceInfo>Coverage-8</InsuranceInfo>
+    <StageName/>
+    <PerformanceType/>
+    <NumPerformers/>
+    <TechnicalRequirements/>
+    <PerformanceDuration/>
+    <SampleLink/>
+    <CulturalBackground/>
+    <AvailableForRehearsals/>
+    <FoodCategory>Beverages</FoodCategory>
+    <MenuDescription>Menu includes cakes</MenuDescription>
+    <VeganOptions>False</VeganOptions>
+    <FoodHandlerCert>FHC-8</FoodHandlerCert>
+  </row>
+  <row>
+    <FirstName>Isabella</FirstName>
+    <LastName>Hernandez</LastName>
+    <Email>isabella.hernandez@festivalmail.com</Email>
+    <Phone>(555) 000-1009</Phone>
+    <Role>Beauty Artist</Role>
+    <Attendance>Day 2</Attendance>
+    <Fee>100</Fee>
+    <FestivalYear>2025</FestivalYear>
+    <ServiceType>Nails</ServiceType>
+    <PortfolioLink>http://beautyportfolio.com/isabella9</PortfolioLink>
+    <BringingEquipment>True</BringingEquipment>
+    <LicensedProfessional>True</LicensedProfessional>
+    <BusinessName/>
+    <ProductType/>
+    <ProductDescription/>
+    <PriceRange/>
+    <BoothSize/>
+    <Electricity/>
+    <CornerBooth/>
+    <BusinessLicense/>
+    <InsuranceInfo/>
+    <StageName/>
+    <PerformanceType/>
+    <NumPerformers/>
+    <TechnicalRequirements/>
+    <PerformanceDuration/>
+    <SampleLink/>
+    <CulturalBackground/>
+    <AvailableForRehearsals/>
+    <FoodCategory/>
+    <MenuDescription/>
+    <VeganOptions/>
+    <FoodHandlerCert/>
+  </row>
+  <row>
+    <FirstName>Liam</FirstName>
+    <LastName>Brown</LastName>
+    <Email>liam.brown@festivalmail.com</Email>
+    <Phone>(555) 000-1010</Phone>
+    <Role>Vendor</Role>
+    <Attendance>Day 2</Attendance>
+    <Fee>400</Fee>
+    <FestivalYear>2025</FestivalYear>
+    <ServiceType/>
+    <PortfolioLink/>
+    <BringingEquipment/>
+    <LicensedProfessional/>
+    <BusinessName>Brown Creations</BusinessName>
+    <ProductType>Art</ProductType>
+    <ProductDescription>High quality handmade art</ProductDescription>
+    <PriceRange>$6-$27</PriceRange>
+    <BoothSize>Large</BoothSize>
+    <Electricity>True</Electricity>
+    <CornerBooth>True</CornerBooth>
+    <BusinessLicense>LIC-1010</BusinessLicense>
+    <InsuranceInfo>Coverage-10</InsuranceInfo>
+    <StageName/>
+    <PerformanceType/>
+    <NumPerformers/>
+    <TechnicalRequirements/>
+    <PerformanceDuration/>
+    <SampleLink/>
+    <CulturalBackground/>
+    <AvailableForRehearsals/>
+    <FoodCategory/>
+    <MenuDescription/>
+    <VeganOptions/>
+    <FoodHandlerCert/>
+  </row>
+  <row>
+    <FirstName>Noah</FirstName>
+    <LastName>Davis</LastName>
+    <Email>noah.davis@festivalmail.com</Email>
+    <Phone>(555) 000-1011</Phone>
+    <Role>Attendee</Role>
+    <Attendance>Both</Attendance>
+    <Fee>25</Fee>
+    <FestivalYear>2025</FestivalYear>
+    <ServiceType/>
+    <PortfolioLink/>
+    <BringingEquipment/>
+    <LicensedProfessional/>
+    <BusinessName/>
+    <ProductType/>
+    <ProductDescription/>
+    <PriceRange/>
+    <BoothSize/>
+    <Electricity/>
+    <CornerBooth/>
+    <BusinessLicense/>
+    <InsuranceInfo/>
+    <StageName/>
+    <PerformanceType/>
+    <NumPerformers/>
+    <TechnicalRequirements/>
+    <PerformanceDuration/>
+    <SampleLink/>
+    <CulturalBackground/>
+    <AvailableForRehearsals/>
+    <FoodCategory/>
+    <MenuDescription/>
+    <VeganOptions/>
+    <FoodHandlerCert/>
+  </row>
+  <row>
+    <FirstName>Sophia</FirstName>
+    <LastName>Rodriguez</LastName>
+    <Email>sophia.rodriguez@festivalmail.com</Email>
+    <Phone>(555) 000-1012</Phone>
+    <Role>Vendor</Role>
+    <Attendance>Day 1</Attendance>
+    <Fee>150</Fee>
+    <FestivalYear>2025</FestivalYear>
+    <ServiceType/>
+    <PortfolioLink/>
+    <BringingEquipment/>
+    <LicensedProfessional/>
+    <BusinessName>Rodriguez Creations</BusinessName>
+    <ProductType>Food</ProductType>
+    <ProductDescription>High quality handmade food</ProductDescription>
+    <PriceRange>$11-$42</PriceRange>
+    <BoothSize>Large</BoothSize>
+    <Electricity>True</Electricity>
+    <CornerBooth>False</CornerBooth>
+    <BusinessLicense>LIC-1012</BusinessLicense>
+    <InsuranceInfo>Coverage-12</InsuranceInfo>
+    <StageName/>
+    <PerformanceType/>
+    <NumPerformers/>
+    <TechnicalRequirements/>
+    <PerformanceDuration/>
+    <SampleLink/>
+    <CulturalBackground/>
+    <AvailableForRehearsals/>
+    <FoodCategory>Desserts</FoodCategory>
+    <MenuDescription>Menu includes fries</MenuDescription>
+    <VeganOptions>False</VeganOptions>
+    <FoodHandlerCert>FHC-12</FoodHandlerCert>
+  </row>
+  <row>
+    <FirstName>Noah</FirstName>
+    <LastName>Johnson</LastName>
+    <Email>noah.johnson@festivalmail.com</Email>
+    <Phone>(555) 000-1013</Phone>
+    <Role>Vendor</Role>
+    <Attendance>Day 1</Attendance>
+    <Fee>250</Fee>
+    <FestivalYear>2025</FestivalYear>
+    <ServiceType/>
+    <PortfolioLink/>
+    <BringingEquipment/>
+    <LicensedProfessional/>
+    <BusinessName>Johnson Creations</BusinessName>
+    <ProductType>Beauty Products</ProductType>
+    <ProductDescription>High quality handmade beauty products</ProductDescription>
+    <PriceRange>$11-$47</PriceRange>
+    <BoothSize>Medium</BoothSize>
+    <Electricity>True</Electricity>
+    <CornerBooth>True</CornerBooth>
+    <BusinessLicense>LIC-1013</BusinessLicense>
+    <InsuranceInfo>Coverage-13</InsuranceInfo>
+    <StageName/>
+    <PerformanceType/>
+    <NumPerformers/>
+    <TechnicalRequirements/>
+    <PerformanceDuration/>
+    <SampleLink/>
+    <CulturalBackground/>
+    <AvailableForRehearsals/>
+    <FoodCategory/>
+    <MenuDescription/>
+    <VeganOptions/>
+    <FoodHandlerCert/>
+  </row>
+  <row>
+    <FirstName>Elijah</FirstName>
+    <LastName>Martinez</LastName>
+    <Email>elijah.martinez@festivalmail.com</Email>
+    <Phone>(555) 000-1014</Phone>
+    <Role>Vendor</Role>
+    <Attendance>Day 2</Attendance>
+    <Fee>250</Fee>
+    <FestivalYear>2025</FestivalYear>
+    <ServiceType/>
+    <PortfolioLink/>
+    <BringingEquipment/>
+    <LicensedProfessional/>
+    <BusinessName>Martinez Creations</BusinessName>
+    <ProductType>Jewelry</ProductType>
+    <ProductDescription>High quality handmade jewelry</ProductDescription>
+    <PriceRange>$13-$35</PriceRange>
+    <BoothSize>Medium</BoothSize>
+    <Electricity>False</Electricity>
+    <CornerBooth>False</CornerBooth>
+    <BusinessLicense>LIC-1014</BusinessLicense>
+    <InsuranceInfo>Coverage-14</InsuranceInfo>
+    <StageName/>
+    <PerformanceType/>
+    <NumPerformers/>
+    <TechnicalRequirements/>
+    <PerformanceDuration/>
+    <SampleLink/>
+    <CulturalBackground/>
+    <AvailableForRehearsals/>
+    <FoodCategory/>
+    <MenuDescription/>
+    <VeganOptions/>
+    <FoodHandlerCert/>
+  </row>
+  <row>
+    <FirstName>Benjamin</FirstName>
+    <LastName>Rodriguez</LastName>
+    <Email>benjamin.rodriguez@festivalmail.com</Email>
+    <Phone>(555) 000-1015</Phone>
+    <Role>Attendee</Role>
+    <Attendance>Day 1</Attendance>
+    <Fee>25</Fee>
+    <FestivalYear>2025</FestivalYear>
+    <ServiceType/>
+    <PortfolioLink/>
+    <BringingEquipment/>
+    <LicensedProfessional/>
+    <BusinessName/>
+    <ProductType/>
+    <ProductDescription/>
+    <PriceRange/>
+    <BoothSize/>
+    <Electricity/>
+    <CornerBooth/>
+    <BusinessLicense/>
+    <InsuranceInfo/>
+    <StageName/>
+    <PerformanceType/>
+    <NumPerformers/>
+    <TechnicalRequirements/>
+    <PerformanceDuration/>
+    <SampleLink/>
+    <CulturalBackground/>
+    <AvailableForRehearsals/>
+    <FoodCategory/>
+    <MenuDescription/>
+    <VeganOptions/>
+    <FoodHandlerCert/>
+  </row>
+  <row>
+    <FirstName>Noah</FirstName>
+    <LastName>Davis</LastName>
+    <Email>noah.davis@festivalmail.com</Email>
+    <Phone>(555) 000-1016</Phone>
+    <Role>Performer</Role>
+    <Attendance>Day 2</Attendance>
+    <Fee>50</Fee>
+    <FestivalYear>2025</FestivalYear>
+    <ServiceType/>
+    <PortfolioLink/>
+    <BringingEquipment/>
+    <LicensedProfessional/>
+    <BusinessName/>
+    <ProductType/>
+    <ProductDescription/>
+    <PriceRange/>
+    <BoothSize/>
+    <Electricity/>
+    <CornerBooth/>
+    <BusinessLicense/>
+    <InsuranceInfo/>
+    <StageName>Noah &amp; Co.</StageName>
+    <PerformanceType>Theater</PerformanceType>
+    <NumPerformers>4.0</NumPerformers>
+    <TechnicalRequirements>Mic, Speakers</TechnicalRequirements>
+    <PerformanceDuration>25 min</PerformanceDuration>
+    <SampleLink>http://festivalperformers.com/sample16</SampleLink>
+    <CulturalBackground>Multicultural</CulturalBackground>
+    <AvailableForRehearsals>False</AvailableForRehearsals>
+    <FoodCategory/>
+    <MenuDescription/>
+    <VeganOptions/>
+    <FoodHandlerCert/>
+  </row>
+  <row>
+    <FirstName>Olivia</FirstName>
+    <LastName>Johnson</LastName>
+    <Email>olivia.johnson@festivalmail.com</Email>
+    <Phone>(555) 000-1017</Phone>
+    <Role>Beauty Artist</Role>
+    <Attendance>Both</Attendance>
+    <Fee>100</Fee>
+    <FestivalYear>2025</FestivalYear>
+    <ServiceType>Skincare</ServiceType>
+    <PortfolioLink>http://beautyportfolio.com/olivia17</PortfolioLink>
+    <BringingEquipment>False</BringingEquipment>
+    <LicensedProfessional>False</LicensedProfessional>
+    <BusinessName/>
+    <ProductType/>
+    <ProductDescription/>
+    <PriceRange/>
+    <BoothSize/>
+    <Electricity/>
+    <CornerBooth/>
+    <BusinessLicense/>
+    <InsuranceInfo/>
+    <StageName/>
+    <PerformanceType/>
+    <NumPerformers/>
+    <TechnicalRequirements/>
+    <PerformanceDuration/>
+    <SampleLink/>
+    <CulturalBackground/>
+    <AvailableForRehearsals/>
+    <FoodCategory/>
+    <MenuDescription/>
+    <VeganOptions/>
+    <FoodHandlerCert/>
+  </row>
+  <row>
+    <FirstName>Elijah</FirstName>
+    <LastName>Garcia</LastName>
+    <Email>elijah.garcia@festivalmail.com</Email>
+    <Phone>(555) 000-1018</Phone>
+    <Role>Vendor</Role>
+    <Attendance>Day 1</Attendance>
+    <Fee>400</Fee>
+    <FestivalYear>2025</FestivalYear>
+    <ServiceType/>
+    <PortfolioLink/>
+    <BringingEquipment/>
+    <LicensedProfessional/>
+    <BusinessName>Garcia Creations</BusinessName>
+    <ProductType>Art</ProductType>
+    <ProductDescription>High quality handmade art</ProductDescription>
+    <PriceRange>$7-$50</PriceRange>
+    <BoothSize>Small</BoothSize>
+    <Electricity>True</Electricity>
+    <CornerBooth>False</CornerBooth>
+    <BusinessLicense>LIC-1018</BusinessLicense>
+    <InsuranceInfo>Coverage-18</InsuranceInfo>
+    <StageName/>
+    <PerformanceType/>
+    <NumPerformers/>
+    <TechnicalRequirements/>
+    <PerformanceDuration/>
+    <SampleLink/>
+    <CulturalBackground/>
+    <AvailableForRehearsals/>
+    <FoodCategory/>
+    <MenuDescription/>
+    <VeganOptions/>
+    <FoodHandlerCert/>
+  </row>
+  <row>
+    <FirstName>James</FirstName>
+    <LastName>Martinez</LastName>
+    <Email>james.martinez@festivalmail.com</Email>
+    <Phone>(555) 000-1019</Phone>
+    <Role>Attendee</Role>
+    <Attendance>Day 2</Attendance>
+    <Fee>25</Fee>
+    <FestivalYear>2025</FestivalYear>
+    <ServiceType/>
+    <PortfolioLink/>
+    <BringingEquipment/>
+    <LicensedProfessional/>
+    <BusinessName/>
+    <ProductType/>
+    <ProductDescription/>
+    <PriceRange/>
+    <BoothSize/>
+    <Electricity/>
+    <CornerBooth/>
+    <BusinessLicense/>
+    <InsuranceInfo/>
+    <StageName/>
+    <PerformanceType/>
+    <NumPerformers/>
+    <TechnicalRequirements/>
+    <PerformanceDuration/>
+    <SampleLink/>
+    <CulturalBackground/>
+    <AvailableForRehearsals/>
+    <FoodCategory/>
+    <MenuDescription/>
+    <VeganOptions/>
+    <FoodHandlerCert/>
+  </row>
+</data>

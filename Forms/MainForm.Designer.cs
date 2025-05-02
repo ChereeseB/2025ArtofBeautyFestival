@@ -1,4 +1,4 @@
-﻿namespace _2025ArtofBeautyFestival.Forms
+﻿namespace ArtofBeautyFestival2025.Forms
 {
     partial class MainForm
     {
@@ -28,100 +28,82 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.picLogo = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btnRegister = new System.Windows.Forms.Button();
             this.btnViewParticipants = new System.Windows.Forms.Button();
             this.btnReports = new System.Windows.Forms.Button();
-            this.btnSettings = new System.Windows.Forms.Button();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
-            // picLogo
+            // pictureBox3
             // 
-            this.picLogo.Image = global::_2025ArtofBeautyFestival.Properties.Resources.AoBFest_2025logo;
-            this.picLogo.Location = new System.Drawing.Point(297, 29);
-            this.picLogo.Name = "picLogo";
-            this.picLogo.Size = new System.Drawing.Size(451, 202);
-            this.picLogo.TabIndex = 0;
-            this.picLogo.TabStop = false;
+            this.pictureBox3.Image = global::_2025ArtofBeautyFestival.Properties.Resources.AoBFest_2025logo;
+            this.pictureBox3.Location = new System.Drawing.Point(424, 56);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(381, 202);
+            this.pictureBox3.TabIndex = 1;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // btnRegister
             // 
-            this.btnRegister.BackColor = System.Drawing.Color.MediumSpringGreen;
-            this.btnRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegister.Location = new System.Drawing.Point(72, 274);
+            this.btnRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegister.Location = new System.Drawing.Point(81, 386);
             this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(219, 69);
-            this.btnRegister.TabIndex = 1;
+            this.btnRegister.Size = new System.Drawing.Size(220, 105);
+            this.btnRegister.TabIndex = 2;
             this.btnRegister.Text = "Register Participant";
-            this.btnRegister.UseVisualStyleBackColor = false;
-            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
+            this.btnRegister.UseVisualStyleBackColor = true;
             // 
             // btnViewParticipants
             // 
-            this.btnViewParticipants.BackColor = System.Drawing.Color.MediumSpringGreen;
-            this.btnViewParticipants.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnViewParticipants.Location = new System.Drawing.Point(400, 274);
+            this.btnViewParticipants.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnViewParticipants.Location = new System.Drawing.Point(484, 386);
             this.btnViewParticipants.Name = "btnViewParticipants";
-            this.btnViewParticipants.Size = new System.Drawing.Size(219, 69);
-            this.btnViewParticipants.TabIndex = 2;
+            this.btnViewParticipants.Size = new System.Drawing.Size(220, 105);
+            this.btnViewParticipants.TabIndex = 3;
             this.btnViewParticipants.Text = "View Participants";
-            this.btnViewParticipants.UseVisualStyleBackColor = false;
-            this.btnViewParticipants.Click += new System.EventHandler(this.btnViewParticipants_Click);
+            this.btnViewParticipants.UseVisualStyleBackColor = true;
             // 
             // btnReports
             // 
-            this.btnReports.BackColor = System.Drawing.Color.MediumSpringGreen;
-            this.btnReports.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReports.Location = new System.Drawing.Point(739, 274);
+            this.btnReports.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReports.Location = new System.Drawing.Point(885, 386);
             this.btnReports.Name = "btnReports";
-            this.btnReports.Size = new System.Drawing.Size(219, 69);
-            this.btnReports.TabIndex = 3;
+            this.btnReports.Size = new System.Drawing.Size(220, 105);
+            this.btnReports.TabIndex = 4;
             this.btnReports.Text = "View Reports";
-            this.btnReports.UseVisualStyleBackColor = false;
-            this.btnReports.Click += new System.EventHandler(this.btnReports_Click);
-            // 
-            // btnSettings
-            // 
-            this.btnSettings.BackColor = System.Drawing.Color.MediumSpringGreen;
-            this.btnSettings.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSettings.Location = new System.Drawing.Point(750, 485);
-            this.btnSettings.Name = "btnSettings";
-            this.btnSettings.Size = new System.Drawing.Size(219, 69);
-            this.btnSettings.TabIndex = 4;
-            this.btnSettings.Text = "Settings";
-            this.btnSettings.UseVisualStyleBackColor = false;
-            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
+            this.btnReports.UseVisualStyleBackColor = true;tnReports1
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightCyan;
-            this.ClientSize = new System.Drawing.Size(1217, 989);
-            this.Controls.Add(this.btnSettings);
+            this.ClientSize = new System.Drawing.Size(1232, 960);
             this.Controls.Add(this.btnReports);
             this.Controls.Add(this.btnViewParticipants);
             this.Controls.Add(this.btnRegister);
-            this.Controls.Add(this.picLogo);
+            this.Controls.Add(this.pictureBox3);
             this.Name = "MainForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Art of Beauty Festival Management";
-            this.Load += new System.EventHandler(this.MainForm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
+            this.Load += new System.EventHandler(this.MainForm_Load_2);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox picLogo;
+        //private System.Windows.Forms.PictureBox picLogo;
+       // private System.Windows.Forms.Button btnRegister;
+       //private System.Windows.Forms.Button btnViewParticipants;
+       // private System.Windows.Forms.Button btnReports1;
+        //private System.Windows.Forms.Button btnSettings;
+        //private System.Windows.Forms.ToolTip toolTip1;
+       // private System.Windows.Forms.PictureBox pictureBox1;
+        //private System.Windows.Forms.Button btnResigter;
+        //private System.Windows.Forms.Button btnViewParticipants1;
+        //private System.Windows.Forms.Button btnReports1;
+        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Button btnRegister;
         private System.Windows.Forms.Button btnViewParticipants;
         private System.Windows.Forms.Button btnReports;
-        private System.Windows.Forms.Button btnSettings;
-        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
